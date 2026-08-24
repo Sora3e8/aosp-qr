@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AdaptiveTheme.fragment.style" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="AdaptiveTheme.dialog.style" parent="Theme.AppCompat.Dialog">
+        <item name="dialogCornerRadius">16dp</item>
+        <item name="android:background">@color/cardview_light_background</item>
+        <item name="android:textColor">@color/material_dynamic_neutral20</item>
+    </style>
+
+    <style name="AdaptiveTheme.dialog.elementstyle" parent="ThemeOverlay.Material3.DynamicColors.DayNight">
+        <item name="rippleColor">@color/cardview_dark_background</item>
+    </style>
+
+    <style name="AdaptiveTheme.elements.style" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:backgroundTint">@color/material_dynamic_neutral_variant30</item>
+        <item name="iconTint">@color/material_dynamic_tertiary90</item>
+        <item name="android:textColor">@color/material_dynamic_tertiary90</item>
+        <item name="rippleColor">@color/material_dynamic_neutral_variant50</item>
+        <item name="android:hapticFeedbackEnabled">true</item>
+    </style>
+
+    <style name="AdaptiveTheme.elements.altstyle" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@color/material_dynamic_neutral_variant30</item>
+        <item name="iconTint">@color/material_dynamic_tertiary90</item>
+        <item name="android:textColor">@color/material_dynamic_tertiary90</item>
+        <item name="rippleColor">@color/material_dynamic_neutral_variant50</item>
+        <item name="android:hapticFeedbackEnabled">true</item>
+    </style></resources>
